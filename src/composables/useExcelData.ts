@@ -33,7 +33,8 @@ export function useExcelData() {
     error.value = null;
 
     try {
-      const response = await axios.get("/exam.xlsx", {
+      // import.meta.env.BASE_URL 會自動取得 vite.config.ts 的 base 設定
+      const response = await axios.get(`${import.meta.env.BASE_URL}exam.xlsx`, {
         responseType: "arraybuffer", //responseType=>限制取回的資料格式  ArrayBuffer 是 JavaScript 用來表示原始二進位資料的物件
       });
       const arrayBuffer = response.data;
