@@ -6,21 +6,7 @@ import type {
   TCountryCustomerStats,
   TDailyInvoiceStats,
 } from "../types/invoice";
-
-//轉換Excel時間 to  jS Date
-function excelDateToJSDate(serial: number): Date {
-  const utc_days = Math.floor(serial - 25569); //25569 => 1970-01-01的Excel序列日期
-  const utc_value = utc_days * 86400; //1天=>86400秒
-  return new Date(utc_value * 1000); //js Data 使用毫秒=>轉換成秒數
-}
-
-//format Date to YYYY-MM-DD
-function formatDate(date: Date): string {
-  const year = date.getFullYear();
-  const month = String(date.getMonth() + 1).padStart(2, "0");
-  const day = String(date.getDate()).padStart(2, "0");
-  return `${year}-${month}-${day}`;
-}
+import { excelDateToJSDate, formatDate } from "../utils/dateUtils"; // 從 utils 引入
 
 export function useExcelData() {
   const loading = ref(false);
