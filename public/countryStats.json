@@ -1,0 +1,150 @@
+[
+  {
+    "country": "United Kingdom",
+    "customerCount": 3950
+  },
+  {
+    "country": "Germany",
+    "customerCount": 95
+  },
+  {
+    "country": "France",
+    "customerCount": 87
+  },
+  {
+    "country": "Spain",
+    "customerCount": 31
+  },
+  {
+    "country": "Belgium",
+    "customerCount": 25
+  },
+  {
+    "country": "Switzerland",
+    "customerCount": 21
+  },
+  {
+    "country": "Portugal",
+    "customerCount": 19
+  },
+  {
+    "country": "Italy",
+    "customerCount": 15
+  },
+  {
+    "country": "Finland",
+    "customerCount": 12
+  },
+  {
+    "country": "Austria",
+    "customerCount": 11
+  },
+  {
+    "country": "Norway",
+    "customerCount": 10
+  },
+  {
+    "country": "Australia",
+    "customerCount": 9
+  },
+  {
+    "country": "Netherlands",
+    "customerCount": 9
+  },
+  {
+    "country": "Channel Islands",
+    "customerCount": 9
+  },
+  {
+    "country": "Denmark",
+    "customerCount": 9
+  },
+  {
+    "country": "Japan",
+    "customerCount": 8
+  },
+  {
+    "country": "Cyprus",
+    "customerCount": 8
+  },
+  {
+    "country": "Sweden",
+    "customerCount": 8
+  },
+  {
+    "country": "Poland",
+    "customerCount": 6
+  },
+  {
+    "country": "Israel",
+    "customerCount": 4
+  },
+  {
+    "country": "Greece",
+    "customerCount": 4
+  },
+  {
+    "country": "Canada",
+    "customerCount": 4
+  },
+  {
+    "country": "Unspecified",
+    "customerCount": 4
+  },
+  {
+    "country": "USA",
+    "customerCount": 4
+  },
+  {
+    "country": "EIRE",
+    "customerCount": 3
+  },
+  {
+    "country": "United Arab Emirates",
+    "customerCount": 2
+  },
+  {
+    "country": "Bahrain",
+    "customerCount": 2
+  },
+  {
+    "country": "Malta",
+    "customerCount": 2
+  },
+  {
+    "country": "Lithuania",
+    "customerCount": 1
+  },
+  {
+    "country": "Iceland",
+    "customerCount": 1
+  },
+  {
+    "country": "Singapore",
+    "customerCount": 1
+  },
+  {
+    "country": "Lebanon",
+    "customerCount": 1
+  },
+  {
+    "country": "Saudi Arabia",
+    "customerCount": 1
+  },
+  {
+    "country": "Czech Republic",
+    "customerCount": 1
+  },
+  {
+    "country": "Brazil",
+    "customerCount": 1
+  },
+  {
+    "country": "European Community",
+    "customerCount": 1
+  },
+  {
+    "country": "RSA",
+    "customerCount": 1
+  }
+]
