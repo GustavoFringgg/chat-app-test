@@ -25,7 +25,7 @@ export function useExcelData() {
 
     try {
       const baseUrl = import.meta.env.BASE_URL;
-
+      //baseUrl: /chat-app-test/
       // 同時載入兩個 JSON 檔案（並行請求）
       const [countryResponse, dailyResponse] = await Promise.all([
         axios.get<TCountryCustomerStats[]>(`${baseUrl}countryStats.json`),
