@@ -9,27 +9,11 @@ import XLSX from "xlsx";
 import { writeFileSync } from "fs";
 import { fileURLToPath } from "url";
 import { dirname, join } from "path";
-
+import { excelDateToJSDate, formatDate } from "./utils.js";
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
-// Excel 日期轉換
-function excelDateToJSDate(serial) {
-  const utc_days = Math.floor(serial - 25569);
-  const utc_value = utc_days * 86400;
-  return new Date(utc_value * 1000);
-}
-
-// 日期格式化
-function formatDate(date) {
-  const year = date.getFullYear();
-  const month = String(date.getMonth() + 1).padStart(2, "0");
-  const day = String(date.getDate()).padStart(2, "0");
-  return `${year}-${month}-${day}`;
-}
-
 console.log("開始處理 Excel 檔案\n");
-
 // 讀取 Excel
 const excelPath = join(__dirname, "../public/exam.xlsx");
 console.log(`讀取檔案: ${excelPath}`);
