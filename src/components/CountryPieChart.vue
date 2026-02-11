@@ -33,7 +33,7 @@ function generateColors(count: number): string[] {
 //ChartData<"line"> 折線圖
 //<'pie'> => chart.js提供的TS型別
 const chartData = computed<ChartData<"pie">>(() => {
-  const topCountries = props.data.slice(0, 10); //能取前10名資料，因為composable有排序
+  const topCountries = props.data.slice(0, 20); //能取前10名資料，因為composable有排序
   const others = props.data.slice(10); //剩下的資料歸類為others
 
   const labels = topCountries.map((d) => d.country); //取出前10名的國家名稱
